@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: table;
+}
+
+.center-content{
+    text-align: center;
+    
+}
+
+.standard-button{
+    text-align: center;
+    border-radius: 8px;
+    background-color: white;
+    color: steelblue;
+    padding: 10px;
+    border-color: steelblue;
+    margin: 0.5%;
+}
+
+.row{
+    display: table-row;
+}
+
+.col{
+    display: table-cell;
+}
+
+.centered-ruler{
+    width: 100%;
+    margin-left: 0%;
+}
+
+.hide-img{
+    display: none;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+td{
+    text-align: center;
+}
+
+a:link {
+    color: steelblue;
+}
+
+/* visited link */
+a:visited {
+    color: steelblue;
+}
+
+/* mouse over link */
+a:hover {
+    color: cadetblue;
+}
+
+/* selected link */
+a:active {
+    color: slateblue;
+}
